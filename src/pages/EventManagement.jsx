@@ -163,7 +163,7 @@ const EventManagement = () => {
               <Link to="/contact" className="btn btn-primary">
                 Request a Quote
               </Link>
-              <a href="mailto:vikaskumar2005@gmail.com" className="btn btn-secondary">
+              <a href="mailto:info@example.com" className="btn btn-secondary">
                 Email Us
               </a>
             </div>

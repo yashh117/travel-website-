@@ -115,9 +115,9 @@ ${formData.message}`;
                 <span className="contact-icon">✉️</span>
                 <div>
                   <h3>{t("contact.email")}</h3>
-                  <a href="mailto:sushil@radialtoursindia.com">sushil@radialtoursindia.com</a>
+                  <a href="mailto:info@example.com">info@example.com</a>
                   <br />
-                  <a href="mailto:info@radialtoursindia.com">info@radialtoursindia.com</a>
+                  <a href="mailto:support@example.com">support@example.com</a>
                 </div>
               </div>
 

@@ -133,8 +133,8 @@ const TravelServices = () => {
               <Link to="/contact" className="btn btn-primary">
                 Send Enquiry
               </Link>
-              <a href="tel:+919818080523" className="btn btn-secondary">
-                Call:+91 98733 52002
+              <a href="tel:+911234567890" className="btn btn-secondary">
+                Call: +91 12345 67890
               </a>
             </div>
           </div>

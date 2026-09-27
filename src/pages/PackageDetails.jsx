@@ -265,10 +265,10 @@ const PackageDetails = () => {
             <div className="pd-contact-card">
               <h3>Information Contact</h3>
               <a
-                href="mailto:sushil@radialtoursindia.com"
+                href="mailto:info@example.com"
                 className="pd-contact-link"
               >
-                ✉️ sushil@radialtoursindia.com
+                ✉️ info@example.com
               </a>
               <a href="tel:+911234567890" className="pd-contact-link">
                 📞 +91 12345 67890

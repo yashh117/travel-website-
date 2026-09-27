@@ -82,11 +82,11 @@ const Home = () => {
                   <span className="popup-contact-val">+91 12345 67890</span>
                 </div>
               </a>
-              <a href="mailto:sushil@radialtoursindia.com" className="popup-contact-item">
+              <a href="mailto:info@example.com" className="popup-contact-item">
                 <span className="popup-contact-icon">✉️</span>
                 <div>
                   <span className="popup-contact-label">{t("home.popup.email")}</span>
-                  <span className="popup-contact-val">sushil@radialtoursindia.com</span>
+                  <span className="popup-contact-val">info@example.com</span>
                 </div>
               </a>
             </div>

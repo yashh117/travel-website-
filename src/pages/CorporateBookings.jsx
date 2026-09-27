@@ -150,7 +150,7 @@ const CorporateBookings = () => {
               <Link to="/contact" className="btn btn-primary">
                 Request Corporate Quote
               </Link>
-              <a href="tel:+919818080523" className="btn btn-secondary">
+              <a href="tel:+911234567890" className="btn btn-secondary">
                 Call Corporate Team
               </a>
             </div>
