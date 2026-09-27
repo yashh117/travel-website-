@@ -14,7 +14,7 @@ const companyLocation = {
   longitude: 76.9881,
 };
 
-const WHATSAPP_NUMBER = "919873352002";
+const WHATSAPP_NUMBER = "911234567890";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -107,7 +107,7 @@ ${formData.message}`;
                 <span className="contact-icon">📞</span>
                 <div>
                   <h3>{t("contact.phone")}</h3>
-                  <a href="tel:+919873352002">+91 98733 52002</a>
+                  <a href="tel:+911234567890">+91 12345 67890</a>
                 </div>
               </div>
 
@@ -125,8 +125,8 @@ ${formData.message}`;
                 <span className="contact-icon">💬</span>
                 <div>
                   <h3>{t("contact.whatsapp")}</h3>
-                  <a href="https://wa.me/919873352002" target="_blank" rel="noreferrer">
-                    +91 98733 52002
+                  <a href="https://wa.me/911234567890" target="_blank" rel="noreferrer">
+                    +91 12345 67890
                   </a>
                 </div>
               </div>

@@ -8,7 +8,7 @@ const TripAdvisorReviews = ({ widgetUrl, tripAdvisorUrl }) => {
       name: "Asha K.",
       rating: 5,
       date: "Jan 2025",
-      text: "Excellent service and punctual transport. Highly recommend VRSRADIAL SOLUTIONS!",
+      text: "Excellent service and punctual transport. Highly recommend Travel Website!",
     },
     {
       id: 2,

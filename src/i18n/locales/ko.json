@@ -2,10 +2,10 @@
   "nav": { "home": "홈", "tours": "투어 & 패키지", "travelServices": "여행 서비스", "eventManagement": "이벤트 관리", "corporateBookings": "법인 예약", "gallery": "갤러리", "contact": "문의" },
   "hero": { "badge": "인도의 신뢰할 수 있는 여행 파트너", "title": "프리미엄 여행과", "titleHighlight": "프리미엄 여행", "titleAnd": "이벤트를 위한 파트너", "subtitle": "잘 계획된 여행, 신뢰할 수 있는 교통 솔루션, 전문적으로 관리되는 이벤트를 통해 완벽한 경험을 제공합니다.", "stats": { "clients": "만족한 고객", "destinations": "목적지", "experience": "년 경력", "satisfaction": "만족도" }, "cta": "여행 계획하기", "explore": "투어 탐색" },
   "home": {
-    "banner": { "title": "당신의 여행은 여기서 시작됩니다", "subtitle": "VkSRADIAL SOLUTIONS와 세계를 탐험하세요" },
+    "banner": { "title": "당신의 여행은 여기서 시작됩니다", "subtitle": "Travel Website와 세계를 탐험하세요" },
     "whyUs": { "eyebrow": "왜 우리를 선택하나요", "title": "자신감 있게 여행하세요", "subtitle": "우리는 특별한 경험을 위해 일반 여행을 뛰어넘습니다", "experience": { "title": "10년 이상의 경험", "desc": "잊을 수 없는 여행을 만들어온 10년." }, "personalised": { "title": "맞춤형 서비스", "desc": "고객의 선호도에 맞춘 여행 일정." }, "price": { "title": "최저가 보장", "desc": "숨겨진 요금 없는 투명한 가격." }, "support": { "title": "24/7 지원", "desc": "여행 전, 중, 후 지속적인 지원." } },
     "services": { "eyebrow": "우리가 제공하는 것", "title": "서비스", "subtitle": "여행 및 이벤트 요구를 위한 종합 솔루션" },
-    "about": { "eyebrow": "회사 소개", "heading": "VkSRADIAL SOLUTIONS PVT. LTD.", "p1": "프리미엄 투어, 여행 및 이벤트 관리 회사입니다.", "p2": "품질, 편안함, 세심한 주의를 바탕으로 맞춤형 여행 서비스를 제공합니다.", "features": ["잘 계획된 여행", "신뢰할 수 있는 교통 솔루션", "전문 이벤트 관리", "맞춤화된 서비스"], "cta": "문의하기", "badge": "년의 탁월함" },
+    "about": { "eyebrow": "회사 소개", "heading": "Travel Website", "p1": "프리미엄 투어, 여행 및 이벤트 관리 회사입니다.", "p2": "품질, 편안함, 세심한 주의를 바탕으로 맞춤형 여행 서비스를 제공합니다.", "features": ["잘 계획된 여행", "신뢰할 수 있는 교통 솔루션", "전문 이벤트 관리", "맞춤화된 서비스"], "cta": "문의하기", "badge": "년의 탁월함" },
     "cta": { "badge": "탐험할 준비가 되셨나요?", "title": "다음 모험을 지금 계획하세요", "subtitle": "맞춤형 여행 솔루션을 위해 문의하세요.", "getInTouch": "문의하기", "callNow": "지금 전화" },
     "services_list": { "tours": { "title": "투어 & 패키지", "desc": "엄선된 투어 패키지로 목적지를 탐험하세요.", "cta": "모든 투어 보기" }, "travel": { "title": "여행 서비스", "desc": "신뢰할 수 있는 교통 솔루션.", "cta": "서비스 보기" }, "events": { "title": "이벤트 관리", "desc": "전문적인 이벤트 기획 및 실행.", "cta": "더 알아보기" }, "corporate": { "title": "법인 예약", "desc": "기업 고객을 위한 맞춤형 솔루션.", "cta": "견적 받기" } },
     "popup": { "connect": "연결합시다", "tagline": "전화, 이메일 또는 WhatsApp으로 문의", "phone": "전화", "email": "이메일", "whatsapp": "WhatsApp 채팅" }

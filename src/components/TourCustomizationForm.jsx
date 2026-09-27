@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
-const WHATSAPP_NUMBER = "919873352002";
+const WHATSAPP_NUMBER = "911234567890";
 
 const defaultFormData = {
   name: "",

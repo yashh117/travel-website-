@@ -3,7 +3,7 @@ import "./WhatsAppButton.css";
 
 const WhatsAppButton = () => {
   const { t } = useTranslation();
-  const phoneNumber = "919873352002";
+  const phoneNumber = "911234567890";
   const message = encodeURIComponent("Hello! I'm interested in your tour packages.");
 
   return (

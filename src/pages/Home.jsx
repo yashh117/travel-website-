@@ -75,11 +75,11 @@ const Home = () => {
             <h3>{t("home.popup.connect")}</h3>
             <p className="popup-tagline">{t("home.popup.tagline")}</p>
             <div className="popup-details">
-              <a href="tel:+919873352002" className="popup-contact-item">
+              <a href="tel:+911234567890" className="popup-contact-item">
                 <span className="popup-contact-icon">📱</span>
                 <div>
                   <span className="popup-contact-label">{t("home.popup.phone")}</span>
-                  <span className="popup-contact-val">+91 98733 52002</span>
+                  <span className="popup-contact-val">+91 12345 67890</span>
                 </div>
               </a>
               <a href="mailto:sushil@radialtoursindia.com" className="popup-contact-item">
@@ -91,7 +91,7 @@ const Home = () => {
               </a>
             </div>
             <a
-              href="https://wa.me/919873352002"
+              href="https://wa.me/911234567890"
               className="btn btn-secondary popup-wa-btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -193,7 +193,7 @@ const Home = () => {
               <button onClick={() => setShowPopup(true)} className="btn btn-primary">
                 {t("home.cta.getInTouch")}
               </button>
-              <a href="tel:+919873352002" className="btn btn-ghost">
+              <a href="tel:+911234567890" className="btn btn-ghost">
                 📞 &nbsp; {t("home.cta.callNow")}
               </a>
             </div>

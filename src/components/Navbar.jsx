@@ -26,10 +26,8 @@ const Navbar = () => {
 
           {/* Logo */}
           <Link to="/" className="logo" onClick={closeMenu}>
-            <img src="/images/logo.png" alt="VKSRADIAL SOLUTIONS Logo" className="logo-image" />
             <div className="logo-text">
-              <h2>VKSRADIAL SOLUTIONS</h2>
-              <span>PVT.LTD</span>
+              <h2>Travel Website</h2>
             </div>
           </Link>
 

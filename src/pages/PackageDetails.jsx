@@ -270,8 +270,8 @@ const PackageDetails = () => {
               >
                 ✉️ sushil@radialtoursindia.com
               </a>
-              <a href="tel:+919873352002" className="pd-contact-link">
-                📞 +91 98733 52002
+              <a href="tel:+911234567890" className="pd-contact-link">
+                📞 +91 12345 67890
               </a>
             </div>
           </aside>
