@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "tours": "ツアー＆パッケージ",
+    "travelServices": "旅行サービス",
+    "eventManagement": "イベント管理",
+    "corporateBookings": "法人予約",
+    "gallery": "ギャラリー",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "badge": "インドの信頼できる旅行パートナー",
+    "title": "プレミアム旅行",
+    "titleHighlight": "プレミアム旅行",
+    "titleAnd": "＆イベントのパートナー",
+    "subtitle": "計画的な旅行、信頼性の高い交通ソリューション、プロが管理するイベントを通じてシームレスな体験をお届けします。",
+    "stats": {
+      "clients": "満足したお客様",
+      "destinations": "目的地",
+      "experience": "年の経験",
+      "satisfaction": "満足度"
+    },
+    "cta": "旅行を計画する",
+    "explore": "ツアーを見る"
+  },
+  "home": {
+    "banner": {
+      "title": "あなたの旅はここから始まります",
+      "subtitle": "VkSRADIAL SOLUTIONSと世界を発見しましょう"
+    },
+    "whyUs": {
+      "eyebrow": "なぜ私たちを選ぶのか",
+      "title": "自信を持って旅行しましょう",
+      "subtitle": "普通の旅行を超えた特別な体験をお届けします",
+      "experience": { "title": "10年以上の経験", "desc": "インド全土のお客様に忘れられない旅を提供してきた10年間。" },
+      "personalised": { "title": "パーソナライズされたサービス", "desc": "すべての旅程はお客様の好み、予算、旅のスタイルに合わせてカスタマイズされます。" },
+      "price": { "title": "最安値保証", "desc": "隠れた費用なしの透明な価格設定 — 常に最高のコストパフォーマンス。" },
+      "support": { "title": "24時間サポート", "desc": "旅行の前・中・後を通じた継続的なサポート。" }
+    },
+    "services": {
+      "eyebrow": "私たちが提供するもの",
+      "title": "サービス",
+      "subtitle": "旅行とイベントのすべてのニーズに対応する総合的なソリューション"
+    },
+    "about": {
+      "eyebrow": "私たちについて",
+      "heading": "VkSRADIAL SOLUTIONS PVT. LTD.",
+      "p1": "私たちはプレミアムツアー、旅行、イベント管理会社です。",
+      "p2": "品質、快適さ、細部への注意を大切にし、オーダーメイドの旅行サービスを提供しています。",
+      "features": ["計画的な旅行", "信頼性の高い交通ソリューション", "プロのイベント管理", "カスタマイズされたサービス"],
+      "cta": "お問い合わせ",
+      "badge": "年の実績"
+    },
+    "cta": {
+      "badge": "探索する準備はできていますか？",
+      "title": "次の冒険を今すぐ計画しましょう",
+      "subtitle": "パーソナライズされた旅行ソリューションとイベント管理サービスについてお問い合わせください。",
+      "getInTouch": "お問い合わせ",
+      "callNow": "今すぐ電話"
+    },
+    "services_list": {
+      "tours": { "title": "ツアー＆パッケージ", "desc": "精選された国内外のツアーパッケージで素晴らしい目的地を探索。", "cta": "すべてのツアーを見る" },
+      "travel": { "title": "旅行サービス", "desc": "バス、テンポトラベラー、車、グループ旅行の信頼性の高い交通ソリューション。", "cta": "サービスを見る" },
+      "events": { "title": "イベント管理", "desc": "セミナー、製品発表、企業ツアーのプロフェッショナルなイベント計画と実行。", "cta": "詳細を見る" },
+      "corporate": { "title": "法人予約", "desc": "特別パッケージと専任サポートを備えた法人クライアント向けのソリューション。", "cta": "見積もりを取得" }
+    },
+    "popup": {
+      "connect": "つながりましょう",
+      "tagline": "電話、メール、またはWhatsAppでお問い合わせください",
+      "phone": "電話",
+      "email": "メール",
+      "whatsapp": "WhatsAppでチャット"
+    }
+  },
+  "tours": {
+    "eyebrow": "インドとその先を探索",
+    "title": "ツアー＆パッケージ",
+    "subtitle": "精選されたツアーパッケージで素晴らしい目的地を発見しましょう。",
+    "national": {
+      "eyebrow": "国内ツアー",
+      "title": "インドを探索",
+      "subtitle": "インドの多様な美しさ、歴史、文化に浸りましょう"
+    },
+    "packages": {
+      "eyebrow": "パッケージを選ぶ",
+      "title": "利用可能なツアーパッケージ",
+      "subtitle": "詳細、旅程、カスタマイズオプションを見るには任意のパッケージをクリック"
+    },
+    "viewAll": "← すべてのツアー",
+    "viewDetails": "詳細を見る →",
+    "explorePackages": "パッケージを探索 →",
+    "inclusions": "含まれるもの",
+    "clickForDetails": "詳細はこちら →",
+    "viewAllPackages": "すべてのパッケージを見る",
+    "mostPopular": "最も人気",
+    "adventure": "アドベンチャー",
+    "packages_count": "パッケージ",
+    "cta": {
+      "title": "カスタムツアーパッケージあり",
+      "subtitle": "お探しのものが見つかりませんか？ご希望と予算に合わせたパッケージをご用意できます。",
+      "btn": "カスタムパッケージをリクエスト"
+    }
+  },
+  "packageDetails": {
+    "backTo": "戻る",
+    "highlights": "ハイライト",
+    "overview": "パッケージ概要",
+    "itinerary": "日程",
+    "included": "含まれるもの",
+    "tourDetails": "ツアー詳細",
+    "duration": "期間",
+    "tourType": "ツアータイプ",
+    "groupSize": "グループサイズ",
+    "languages": "言語",
+    "dailyTour": "デイリーツアー",
+    "flexible": "フレキシブル",
+    "from": "から",
+    "package": "パッケージ",
+    "category": "カテゴリー",
+    "enquireNow": "今すぐ問い合わせ",
+    "infoContact": "お問い合わせ先",
+    "customize": "このパッケージをカスタマイズ",
+    "closeCustomize": "カスタマイズを閉じる"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "予約とお問い合わせはこちら",
+    "getInTouch": "お問い合わせ",
+    "desc": "お気軽にお問い合わせください。電話、メール、またはフォームをご利用ください。",
+    "phone": "電話",
+    "email": "メール",
+    "whatsapp": "WhatsApp",
+    "sendEnquiry": "問い合わせを送信",
+    "name": "氏名 *",
+    "emailField": "メール",
+    "phoneField": "電話 *",
+    "selectService": "サービスを選択",
+    "message": "メッセージ *",
+    "send": "WhatsAppで送信",
+    "successTitle": "✓ WhatsAppが正常に開きました",
+    "successMsg": "まもなくご連絡いたします。"
+  },
+  "common": {
+    "enquireNow": "今すぐ問い合わせ",
+    "learnMore": "詳細を見る",
+    "viewTours": "ツアーを見る",
+    "viewServices": "サービスを見る",
+    "getQuote": "見積もりを取得",
+    "chatWhatsApp": "チャットする",
+    "nationalTours": "国内ツアー",
+    "internationalTours": "国際ツアー",
+    "carRental": "レンタカー",
+    "groupTravel": "グループ旅行"
+  },
+  "footer": {
+    "description": "計画的な旅行、信頼性の高い交通ソリューション、プロが管理するイベントを通じてシームレスな体験をお届けするプレミアム会社。",
+    "quickLinks": "クイックリンク",
+    "services": "サービス",
+    "contactUs": "お問い合わせ",
+    "address": "住所",
+    "services_list": {
+      "golden": "ゴールデントライアングルツアー",
+      "northEast": "北東インド＆シッキム",
+      "bus": "バスレンタル",
+      "tempo": "テンポトラベラー",
+      "car": "レンタカー",
+      "event": "イベント計画",
+      "corporate": "企業ツアー"
+    },
+    "copyright": "全著作権所有。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  }
+}

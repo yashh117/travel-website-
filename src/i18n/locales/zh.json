@@ -1,0 +1,18 @@
+{
+  "nav": { "home": "首页", "tours": "旅游套餐", "travelServices": "旅行服务", "eventManagement": "活动管理", "corporateBookings": "企业预订", "gallery": "图库", "contact": "联系我们" },
+  "hero": { "badge": "印度值得信赖的旅行伙伴", "title": "您的", "titleHighlight": "高端旅行", "titleAnd": "与活动合作伙伴", "subtitle": "通过精心规划的旅程、可靠的交通解决方案和专业管理的活动，提供无缝体验。", "stats": { "clients": "满意客户", "destinations": "目的地", "experience": "年经验", "satisfaction": "满意度" }, "cta": "规划我的旅行", "explore": "探索旅游" },
+  "home": {
+    "banner": { "title": "您的旅程从这里开始", "subtitle": "与VkSRADIAL SOLUTIONS一起探索世界" },
+    "whyUs": { "eyebrow": "为什么选择我们", "title": "自信出行", "subtitle": "我们超越普通旅行，提供非凡体验", "experience": { "title": "10年以上经验", "desc": "十年来为客户打造难忘旅程。" }, "personalised": { "title": "个性化服务", "desc": "每个行程都根据您的偏好定制。" }, "price": { "title": "最优价格保证", "desc": "透明定价，无隐藏费用。" }, "support": { "title": "全天候支持", "desc": "旅途前、中、后全程支持。" } },
+    "services": { "eyebrow": "我们提供什么", "title": "我们的服务", "subtitle": "满足您所有旅行和活动需求的综合解决方案" },
+    "about": { "eyebrow": "关于我们", "heading": "VkSRADIAL SOLUTIONS PVT. LTD.", "p1": "我们是一家高端旅游、旅行和活动管理公司。", "p2": "注重质量、舒适和细节，提供定制化旅行服务。", "features": ["精心规划的旅程", "可靠的交通解决方案", "专业活动管理", "定制化个性化服务"], "cta": "联系我们", "badge": "年卓越经验" },
+    "cta": { "badge": "准备探索了吗？", "title": "今天就规划您的下一次冒险", "subtitle": "联系我们获取个性化旅行解决方案。", "getInTouch": "联系我们", "callNow": "立即致电" },
+    "services_list": { "tours": { "title": "旅游套餐", "desc": "探索精心策划的国内外旅游套餐。", "cta": "查看所有旅游" }, "travel": { "title": "旅行服务", "desc": "可靠的交通解决方案。", "cta": "查看服务" }, "events": { "title": "活动管理", "desc": "专业活动策划与执行。", "cta": "了解更多" }, "corporate": { "title": "企业预订", "desc": "为企业客户量身定制的解决方案。", "cta": "获取报价" } },
+    "popup": { "connect": "与我们联系", "tagline": "通过电话、邮件或WhatsApp联系我们", "phone": "电话", "email": "邮箱", "whatsapp": "WhatsApp聊天" }
+  },
+  "tours": { "eyebrow": "探索印度及周边", "title": "旅游套餐", "subtitle": "探索精心策划的旅游套餐。", "national": { "eyebrow": "国内旅游", "title": "探索印度", "subtitle": "沉浸在印度多样的美丽、历史和文化中" }, "packages": { "eyebrow": "选择您的套餐", "title": "可用旅游套餐", "subtitle": "点击任意套餐查看详情和定制选项" }, "viewAll": "← 所有旅游", "viewDetails": "查看详情 →", "explorePackages": "探索套餐 →", "inclusions": "包含项目", "clickForDetails": "点击查看详情 →", "viewAllPackages": "查看所有套餐", "mostPopular": "最受欢迎", "adventure": "冒险", "packages_count": "套餐", "cta": { "title": "可定制旅游套餐", "subtitle": "没有找到您想要的？我们可以为您量身定制。", "btn": "申请定制套餐" } },
+  "packageDetails": { "backTo": "返回", "highlights": "亮点", "overview": "套餐概览", "itinerary": "每日行程", "included": "包含内容", "tourDetails": "旅游详情", "duration": "时长", "tourType": "旅游类型", "groupSize": "团队规模", "languages": "语言", "dailyTour": "每日旅游", "flexible": "灵活", "from": "起价", "package": "套餐", "category": "类别", "enquireNow": "立即咨询", "infoContact": "咨询联系", "customize": "定制此套餐", "closeCustomize": "关闭定制" },
+  "contact": { "title": "联系我们", "subtitle": "预订和咨询请联系我们", "getInTouch": "取得联系", "desc": "我们随时为您提供帮助。致电、发送邮件或填写表单。", "phone": "电话", "email": "邮箱", "whatsapp": "WhatsApp", "sendEnquiry": "发送咨询", "name": "全名 *", "emailField": "邮箱", "phoneField": "电话 *", "selectService": "选择服务", "message": "您的留言 *", "send": "通过WhatsApp发送", "successTitle": "✓ WhatsApp已成功打开", "successMsg": "我们将尽快与您联系。" },
+  "common": { "enquireNow": "立即咨询", "learnMore": "了解更多", "viewTours": "查看旅游", "viewServices": "查看服务", "getQuote": "获取报价", "chatWhatsApp": "与我们聊天", "nationalTours": "国内旅游", "internationalTours": "国际旅游", "carRental": "租车", "groupTravel": "团体旅游" },
+  "footer": { "description": "高端旅游、旅行和活动管理公司，提供无缝体验。", "quickLinks": "快速链接", "services": "我们的服务", "contactUs": "联系我们", "address": "地址", "services_list": { "golden": "金三角旅游", "northEast": "东北部与锡金", "bus": "巴士租赁", "tempo": "Tempo旅行者", "car": "租车", "event": "活动策划", "corporate": "企业旅游" }, "copyright": "版权所有。", "privacy": "隐私政策", "terms": "服务条款" }
+}

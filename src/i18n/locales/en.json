@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Tours & Packages",
+    "travelServices": "Travel Services",
+    "eventManagement": "Event Management",
+    "corporateBookings": "Corporate Bookings",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "India's Trusted Travel Partner",
+    "title": "Your Partner for",
+    "titleHighlight": "Premium Travel",
+    "titleAnd": "& Events",
+    "subtitle": "Delivering seamless experiences through well-planned journeys, reliable transport solutions, and professionally managed events.",
+    "stats": {
+      "clients": "Happy Clients",
+      "destinations": "Destinations",
+      "experience": "Years Experience",
+      "satisfaction": "Satisfaction"
+    },
+    "cta": "Plan My Trip",
+    "explore": "Explore Tours"
+  },
+  "home": {
+    "banner": {
+      "title": "Your Journey Begins Here",
+      "subtitle": "Discover the world with VkSRADIAL SOLUTIONS"
+    },
+    "whyUs": {
+      "eyebrow": "Why Choose Us",
+      "title": "Travel with Confidence",
+      "subtitle": "We go beyond ordinary travel to deliver extraordinary experiences",
+      "experience": { "title": "10+ Years Experience", "desc": "A decade of crafting unforgettable journeys for clients across India." },
+      "personalised": { "title": "Personalised Service", "desc": "Every itinerary is tailored to your preferences, budget, and travel style." },
+      "price": { "title": "Best Price Guarantee", "desc": "Transparent pricing with no hidden charges — always value for money." },
+      "support": { "title": "24/7 Support", "desc": "Round-the-clock assistance before, during, and after your journey." }
+    },
+    "services": {
+      "eyebrow": "What We Offer",
+      "title": "Our Services",
+      "subtitle": "Comprehensive solutions for all your travel and event needs"
+    },
+    "about": {
+      "eyebrow": "About Us",
+      "heading": "VkSRADIAL SOLUTIONS PVT. LTD.",
+      "p1": "We are a premium tour, travel, and event management company delivering seamless experiences through well-planned journeys, reliable transport solutions, and professionally managed events.",
+      "p2": "With a focus on quality, comfort, and attention to detail, we provide tailored travel services, group transport, and end-to-end event execution — making every trip and event smooth, memorable, and stress-free.",
+      "features": ["Well-planned journeys", "Reliable transport solutions", "Professional event management", "Tailored & personalised services"],
+      "cta": "Get in Touch",
+      "badge": "Years of Excellence"
+    },
+    "cta": {
+      "badge": "Ready to Explore?",
+      "title": "Plan Your Next Adventure Today",
+      "subtitle": "Contact us for personalized travel solutions and event management services tailored to your needs.",
+      "getInTouch": "Get in Touch",
+      "callNow": "Call Now"
+    },
+    "services_list": {
+      "tours": { "title": "Tours & Packages", "desc": "Explore amazing destinations with our carefully curated national and international tour packages designed for every budget.", "cta": "View All Tours" },
+      "travel": { "title": "Travel Services", "desc": "Reliable transport solutions including buses, tempo travellers, cars, and group travel arrangements across India.", "cta": "View Services" },
+      "events": { "title": "Event Management", "desc": "Professional event planning and execution for seminars, product launches, corporate tours, and special occasions.", "cta": "Learn More" },
+      "corporate": { "title": "Corporate Bookings", "desc": "Tailored solutions for corporate clients with special packages, bulk bookings, and dedicated relationship management.", "cta": "Get a Quote" }
+    },
+    "popup": {
+      "connect": "Let's Connect",
+      "tagline": "Reach us via phone, email, or WhatsApp",
+      "phone": "Phone",
+      "email": "Email",
+      "whatsapp": "Chat on WhatsApp"
+    }
+  },
+  "tours": {
+    "eyebrow": "Explore India & Beyond",
+    "title": "Tours & Packages",
+    "subtitle": "Discover amazing destinations with our carefully curated tour packages — each one designed for unforgettable memories.",
+    "national": {
+      "eyebrow": "National Tours",
+      "title": "Explore India",
+      "subtitle": "Immerse yourself in the diverse beauty, history, and culture of India"
+    },
+    "packages": {
+      "eyebrow": "Choose Your Package",
+      "title": "Available Tour Packages",
+      "subtitle": "Click any package to see full details, itinerary, and customisation options"
+    },
+    "viewAll": "← All Tours",
+    "viewDetails": "View Details →",
+    "explorePackages": "Explore Packages →",
+    "inclusions": "inclusions",
+    "clickForDetails": "Click for details →",
+    "viewAllPackages": "View all packages",
+    "mostPopular": "Most Popular",
+    "adventure": "Adventure",
+    "packages_count": "Packages",
+    "cta": {
+      "title": "Custom Tour Packages Available",
+      "subtitle": "Don't see what you're looking for? We can create a customized tour package tailored to your preferences and budget.",
+      "btn": "Request Custom Package"
+    }
+  },
+  "packageDetails": {
+    "backTo": "Back to",
+    "highlights": "Highlights",
+    "overview": "Package Overview",
+    "itinerary": "Day-by-Day Itinerary",
+    "included": "What's Included",
+    "tourDetails": "Tour Details",
+    "duration": "Duration",
+    "tourType": "Tour Type",
+    "groupSize": "Group Size",
+    "languages": "Languages",
+    "dailyTour": "Daily Tour",
+    "flexible": "Flexible",
+    "from": "from",
+    "package": "Package",
+    "category": "Category",
+    "enquireNow": "Enquire Now",
+    "infoContact": "Information Contact",
+    "customize": "Customize This Package",
+    "closeCustomize": "Close Customization"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for bookings and enquiries",
+    "getInTouch": "Get in Touch",
+    "desc": "We're here to help. Call, email, WhatsApp us or send your enquiry using the form.",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "sendEnquiry": "Send Enquiry",
+    "name": "Full Name *",
+    "emailField": "Email",
+    "phoneField": "Phone *",
+    "selectService": "Select Service",
+    "message": "Your Message *",
+    "send": "Send on WhatsApp",
+    "successTitle": "✓ WhatsApp opened successfully",
+    "successMsg": "We will contact you shortly."
+  },
+  "common": {
+    "enquireNow": "Enquire Now",
+    "learnMore": "Learn More",
+    "viewTours": "View Tours",
+    "viewServices": "View Services",
+    "getQuote": "Get a Quote",
+    "chatWhatsApp": "Chat with us",
+    "nationalTours": "National Tours",
+    "internationalTours": "International Tours",
+    "carRental": "Car Rental",
+    "groupTravel": "Group Travel"
+  },
+  "footer": {
+    "description": "A premium tour, travel, and event management company delivering seamless experiences through well-planned journeys, reliable transport solutions, and professionally managed events.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "contactUs": "Contact Us",
+    "address": "Address",
+    "services_list": {
+      "golden": "Golden Triangle Tours",
+      "northEast": "North East & Sikkim",
+      "bus": "Bus Rentals",
+      "tempo": "Tempo Traveller",
+      "car": "Car Rentals",
+      "event": "Event Planning",
+      "corporate": "Corporate Tours"
+    },
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "tours": "Tours & Forfaits",
+    "travelServices": "Services de voyage",
+    "eventManagement": "Gestion d'événements",
+    "corporateBookings": "Réservations d'entreprise",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Partenaire de voyage de confiance en Inde",
+    "title": "Votre partenaire pour",
+    "titleHighlight": "Voyages Premium",
+    "titleAnd": "& Événements",
+    "subtitle": "Offrir des expériences sans faille grâce à des voyages bien planifiés, des solutions de transport fiables et des événements gérés professionnellement.",
+    "stats": {
+      "clients": "Clients satisfaits",
+      "destinations": "Destinations",
+      "experience": "Années d'expérience",
+      "satisfaction": "Satisfaction"
+    },
+    "cta": "Planifier mon voyage",
+    "explore": "Explorer les tours"
+  },
+  "home": {
+    "banner": {
+      "title": "Votre voyage commence ici",
+      "subtitle": "Découvrez le monde avec VkSRADIAL SOLUTIONS"
+    },
+    "whyUs": {
+      "eyebrow": "Pourquoi nous choisir",
+      "title": "Voyagez en toute confiance",
+      "subtitle": "Nous allons au-delà des voyages ordinaires pour offrir des expériences extraordinaires",
+      "experience": { "title": "10+ ans d'expérience", "desc": "Une décennie à créer des voyages inoubliables pour nos clients." },
+      "personalised": { "title": "Service personnalisé", "desc": "Chaque itinéraire est adapté à vos préférences, budget et style de voyage." },
+      "price": { "title": "Meilleur prix garanti", "desc": "Tarification transparente sans frais cachés — toujours le meilleur rapport qualité-prix." },
+      "support": { "title": "Assistance 24h/7j", "desc": "Assistance continue avant, pendant et après votre voyage." }
+    },
+    "services": {
+      "eyebrow": "Ce que nous offrons",
+      "title": "Nos services",
+      "subtitle": "Des solutions complètes pour tous vos besoins de voyage et d'événements"
+    },
+    "about": {
+      "eyebrow": "À propos",
+      "heading": "VkSRADIAL SOLUTIONS PVT. LTD.",
+      "p1": "Nous sommes une société premium de gestion de tours, voyages et événements.",
+      "p2": "Avec un accent sur la qualité, le confort et l'attention aux détails, nous fournissons des services de voyage sur mesure.",
+      "features": ["Voyages bien planifiés", "Solutions de transport fiables", "Gestion professionnelle d'événements", "Services personnalisés"],
+      "cta": "Nous contacter",
+      "badge": "Années d'excellence"
+    },
+    "cta": {
+      "badge": "Prêt à explorer ?",
+      "title": "Planifiez votre prochaine aventure",
+      "subtitle": "Contactez-nous pour des solutions de voyage personnalisées et des services de gestion d'événements.",
+      "getInTouch": "Nous contacter",
+      "callNow": "Appeler maintenant"
+    },
+    "services_list": {
+      "tours": { "title": "Tours & Forfaits", "desc": "Explorez des destinations incroyables avec nos forfaits de voyage nationaux et internationaux.", "cta": "Voir tous les tours" },
+      "travel": { "title": "Services de voyage", "desc": "Solutions de transport fiables incluant bus, voyageurs, voitures et voyages en groupe.", "cta": "Voir les services" },
+      "events": { "title": "Gestion d'événements", "desc": "Planification professionnelle pour séminaires, lancements de produits et événements spéciaux.", "cta": "En savoir plus" },
+      "corporate": { "title": "Réservations d'entreprise", "desc": "Solutions sur mesure pour clients d'entreprise avec forfaits spéciaux et soutien dédié.", "cta": "Obtenir un devis" }
+    },
+    "popup": {
+      "connect": "Connectons-nous",
+      "tagline": "Contactez-nous par téléphone, email ou WhatsApp",
+      "phone": "Téléphone",
+      "email": "Email",
+      "whatsapp": "Chatter sur WhatsApp"
+    }
+  },
+  "tours": {
+    "eyebrow": "Explorer l'Inde & Au-delà",
+    "title": "Tours & Forfaits",
+    "subtitle": "Découvrez des destinations incroyables avec nos forfaits de voyage soigneusement sélectionnés.",
+    "national": {
+      "eyebrow": "Tours nationaux",
+      "title": "Explorer l'Inde",
+      "subtitle": "Plongez dans la beauté, l'histoire et la culture diverses de l'Inde"
+    },
+    "packages": {
+      "eyebrow": "Choisissez votre forfait",
+      "title": "Forfaits disponibles",
+      "subtitle": "Cliquez sur un forfait pour voir tous les détails, l'itinéraire et les options de personnalisation"
+    },
+    "viewAll": "← Tous les tours",
+    "viewDetails": "Voir les détails →",
+    "explorePackages": "Explorer les forfaits →",
+    "inclusions": "inclusions",
+    "clickForDetails": "Cliquer pour les détails →",
+    "viewAllPackages": "Voir tous les forfaits",
+    "mostPopular": "Le plus populaire",
+    "adventure": "Aventure",
+    "packages_count": "Forfaits",
+    "cta": {
+      "title": "Forfaits personnalisés disponibles",
+      "subtitle": "Vous ne trouvez pas ce que vous cherchez ? Nous pouvons créer un forfait sur mesure.",
+      "btn": "Demander un forfait personnalisé"
+    }
+  },
+  "packageDetails": {
+    "backTo": "Retour à",
+    "highlights": "Points forts",
+    "overview": "Aperçu du forfait",
+    "itinerary": "Itinéraire jour par jour",
+    "included": "Ce qui est inclus",
+    "tourDetails": "Détails du tour",
+    "duration": "Durée",
+    "tourType": "Type de tour",
+    "groupSize": "Taille du groupe",
+    "languages": "Langues",
+    "dailyTour": "Tour quotidien",
+    "flexible": "Flexible",
+    "from": "à partir de",
+    "package": "Forfait",
+    "category": "Catégorie",
+    "enquireNow": "Demander maintenant",
+    "infoContact": "Contact d'information",
+    "customize": "Personnaliser ce forfait",
+    "closeCustomize": "Fermer la personnalisation"
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "subtitle": "Contactez-nous pour les réservations et les renseignements",
+    "getInTouch": "Prendre contact",
+    "desc": "Nous sommes là pour aider. Appelez, envoyez un email ou utilisez le formulaire.",
+    "phone": "Téléphone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "sendEnquiry": "Envoyer une demande",
+    "name": "Nom complet *",
+    "emailField": "Email",
+    "phoneField": "Téléphone *",
+    "selectService": "Sélectionner un service",
+    "message": "Votre message *",
+    "send": "Envoyer sur WhatsApp",
+    "successTitle": "✓ WhatsApp ouvert avec succès",
+    "successMsg": "Nous vous contacterons bientôt."
+  },
+  "common": {
+    "enquireNow": "Demander maintenant",
+    "learnMore": "En savoir plus",
+    "viewTours": "Voir les tours",
+    "viewServices": "Voir les services",
+    "getQuote": "Obtenir un devis",
+    "chatWhatsApp": "Chattez avec nous",
+    "nationalTours": "Tours nationaux",
+    "internationalTours": "Tours internationaux",
+    "carRental": "Location de voiture",
+    "groupTravel": "Voyage en groupe"
+  },
+  "footer": {
+    "description": "Une société premium de gestion de tours, voyages et événements offrant des expériences sans faille.",
+    "quickLinks": "Liens rapides",
+    "services": "Nos services",
+    "contactUs": "Nous contacter",
+    "address": "Adresse",
+    "services_list": {
+      "golden": "Tours Triangle d'or",
+      "northEast": "Nord-Est & Sikkim",
+      "bus": "Location de bus",
+      "tempo": "Tempo Traveller",
+      "car": "Location de voiture",
+      "event": "Planification d'événements",
+      "corporate": "Tours d'entreprise"
+    },
+    "copyright": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions de service"
+  }
+}

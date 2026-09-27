@@ -1,0 +1,195 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   LANGUAGE SELECTOR — Compact trigger + scrollable grid dropdown
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.lang-selector {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* ─── Trigger button ──────────────────────────────────────────────────── */
+.lang-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.38rem 0.6rem;
+  background: var(--bg-light, #f1f5f9);
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 7px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-700, #1e293b);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1;
+  min-height: 32px;
+  white-space: nowrap;
+}
+
+.lang-trigger:hover {
+  background: #fdf8ec;
+  border-color: rgba(201, 160, 42, 0.4);
+  color: #c9a02a;
+}
+
+.lang-open .lang-trigger {
+  background: #fdf8ec;
+  border-color: #c9a02a;
+  color: #c9a02a;
+}
+
+.lang-flag {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.lang-code {
+  letter-spacing: 0.04em;
+}
+
+.lang-chevron {
+  color: currentColor;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.lang-open .lang-chevron {
+  transform: rotate(180deg);
+}
+
+/* ─── Dropdown — 2-column scrollable grid ─────────────────────────────── */
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  list-style: none;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 14px;
+  box-shadow: 0 20px 56px rgba(15,23,42,.16), 0 4px 16px rgba(15,23,42,.08);
+  /* 2 columns of items */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.2rem;
+  width: 320px;
+  /* scrollable if content overflows */
+  max-height: 380px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  z-index: 2000;
+  animation: langDrop 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Custom scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: var(--border, #e2e8f0) transparent;
+}
+
+.lang-dropdown::-webkit-scrollbar {
+  width: 4px;
+}
+
+.lang-dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.lang-dropdown::-webkit-scrollbar-thumb {
+  background: var(--border, #e2e8f0);
+  border-radius: 4px;
+}
+
+@keyframes langDrop {
+  from { opacity: 0; transform: translateY(-6px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ─── Option ──────────────────────────────────────────────────────────── */
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.55rem 0.65rem;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  outline: none;
+}
+
+.lang-option:hover,
+.lang-option:focus {
+  background: #fdf8ec;
+}
+
+.lang-option.lang-active {
+  background: #fdf3d0;
+}
+
+.lang-opt-flag {
+  font-size: 1.15rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.lang-opt-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.02rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.lang-opt-native {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-900, #0f172a);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lang-opt-label {
+  font-size: 0.68rem;
+  color: var(--text-400, #64748b);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.lang-active .lang-opt-native {
+  color: #c9a02a;
+}
+
+.lang-check {
+  flex-shrink: 0;
+}
+
+/* ─── Mobile — dropdown opens upward from bottom of sidebar ───────────── */
+@media (max-width: 1200px) {
+  .lang-dropdown {
+    position: fixed;
+    bottom: 80px;
+    left: 16px;
+    right: 16px;
+    top: auto;
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+    max-height: 300px;
+    border-radius: 16px;
+    z-index: 9999;
+  }
+
+  .lang-trigger {
+    min-height: 38px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.82rem;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .lang-dropdown {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

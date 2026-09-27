@@ -1,0 +1,344 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   HERO — Cinematic crossfade slideshow (video-like)
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 680px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* ─── Background layers ───────────────────────────────────────────────── */
+.hero-bg-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+/* Each slide is a full-cover div */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: opacity;
+}
+
+/* Current slide always fully visible */
+.hero-slide-current {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Next slide sits behind, fades in on top during transition */
+.hero-slide-next {
+  opacity: 0;
+  z-index: 2;
+  transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-slide-next.hero-slide-enter {
+  opacity: 1;
+}
+
+/* ─── Ken Burns zoom (subtle scale on current slide) ─────────────────── */
+.hero-kenburns {
+  position: absolute;
+  inset: -5%;          /* slightly larger so scale doesn't reveal edges */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  opacity: 0;          /* hidden — only provides the zoom layer */
+  transform: scale(1);
+  transition: opacity 0.3s ease;
+}
+
+.hero-kenburns.hero-kenburns-active {
+  opacity: 1;
+  animation: kenBurns 4.5s ease-in-out forwards;
+}
+
+@keyframes kenBurns {
+  from { transform: scale(1)    translate(0, 0); }
+  to   { transform: scale(1.08) translate(-1%, 0.5%); }
+}
+
+/* ─── Dark overlay ────────────────────────────────────────────────────── */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.45) 50%,
+    rgba(0, 0, 0, 0.60) 100%
+  );
+  z-index: 3;
+}
+
+/* ─── Bottom fade ─────────────────────────────────────────────────────── */
+.hero-fade-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 260px;
+  background: linear-gradient(to top, rgba(10, 14, 26, 0.65) 0%, transparent 100%);
+  z-index: 4;
+}
+
+/* ─── Content ─────────────────────────────────────────────────────────── */
+.hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.45rem 1.1rem;
+  border-radius: 9999px;
+  margin-bottom: 1.6rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  animation: fadeInUp 0.8s ease both;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 4px 32px rgba(0, 0, 0, 0.4);
+  animation: fadeInUp 0.8s 0.15s ease both;
+}
+
+.hero-title span {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2vw, 1.22rem);
+  line-height: 1.72;
+  color: rgba(255, 255, 255, 0.88);
+  margin-bottom: 2.5rem;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 0.8s 0.3s ease both;
+}
+
+/* ─── Stats row ───────────────────────────────────────────────────────── */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.8s 0.45s ease both;
+}
+
+.hero-stat { text-align: center; }
+
+.hero-stat-value {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.2rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hero-stat-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.72);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.hero-stat-divider {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  height: 40px;
+  align-self: center;
+}
+
+/* ─── Buttons ─────────────────────────────────────────────────────────── */
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.8s 0.55s ease both;
+}
+
+.hero-buttons .btn {
+  padding: 15px 34px;
+  font-size: 1rem;
+  border-radius: 12px;
+}
+
+/* ─── Dot navigation ──────────────────────────────────────────────────── */
+.hero-dots {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  gap: 0.55rem;
+  animation: fadeIn 1s 1s ease both;
+}
+
+.hero-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  border: none;
+  background: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-dot:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.hero-dot-active {
+  background: #c9a02a !important;
+  width: 28px;              /* pill expands when active */
+  box-shadow: 0 0 10px rgba(201, 160, 42, 0.6);
+}
+
+/* ─── Progress bar ────────────────────────────────────────────────────── */
+.hero-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: 10;
+}
+
+.hero-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #c9a02a, #fbbf24);
+  width: 0%;
+  animation: progressFill linear forwards;
+  border-radius: 0 2px 2px 0;
+}
+
+@keyframes progressFill {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+/* ─── Scroll indicator ────────────────────────────────────────────────── */
+.hero-scroll {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  animation: fadeIn 1s 1.2s ease both;
+}
+
+.hero-scroll-dot {
+  width: 1.5px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-scroll-dot::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  animation: scrollLine 1.6s ease-in-out infinite;
+}
+
+/* ─── Keyframes ───────────────────────────────────────────────────────── */
+@keyframes scrollLine {
+  0%   { top: -100%; }
+  100% { top: 100%; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ─── Responsive ──────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero { min-height: 600px; }
+
+  .hero-content { padding: 0 16px; }
+
+  .hero-stats { gap: 1.25rem; }
+
+  .hero-stat-value { font-size: 1.4rem; }
+
+  .hero-stat-divider { height: 28px; }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero-dots { bottom: 4rem; }
+
+  .hero-scroll { display: none; }
+}
